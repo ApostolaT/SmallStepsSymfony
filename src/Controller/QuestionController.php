@@ -31,6 +31,8 @@ class QuestionController extends AbstractController
             'Maybe... try reading it from bottom to top.'
         ];
 
+        dump($this);
+
         return $this->render('questions/show.html.twig', [
             'question' => ucwords(str_replace('-', ' ', $slug)),
             'answers' => $answers
