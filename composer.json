@@ -57,5 +57,7 @@
             "allow-contrib": false,
             "require": "5.2.*"
         }
-    }
+    },
+    "name": "smallsteptssymfony/smallstepssymfony",
+    "description": "A small symfony project"
 }
